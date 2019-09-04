@@ -1,0 +1,80 @@
+body {
+    background-image: url("../Images/what-the-hex.png");
+
+}
+
+#title {
+    font: bold;
+    font-size: 25px;
+    color: white;
+    background-color: orange;
+    margin: 10px 100px 10px 10px;
+    padding: 25px;
+    float: left;
+}
+
+#instructions {
+    color: green;
+    background-color: bisque;
+    margin: 10px;
+    padding: 10px;
+    clear: both;
+    float: left;
+}
+
+#randomnumber {
+    height: 105px;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    background-color: lightgreen;
+    float: left;
+    clear: both;
+}
+
+.tally {
+    height: 105px;
+    width: 100px;
+    margin: 10px;
+    background-color: aqua;
+    padding: 10px;
+    float: left;
+    
+}
+
+.btn1 {
+    float: left;
+    clear: both;
+}
+
+.btn2 {
+    float: left;
+}
+
+.btn3 {
+    float: left;
+}
+
+.btn4 {
+    float: left;
+}
+
+#totalscore {
+    height: 15px;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    background-color: seagreen;
+    float: left;
+    clear: both;
+}
+
+#score {
+    height: 105px;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    background-color: seagreen;
+    float: left;
+    clear: both;
+}
