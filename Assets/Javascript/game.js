@@ -20,6 +20,7 @@ var btn4 = Math.floor(Math.random() * 12) + 1;
 var wins = 0;
 var losses = 0;
 
+
 var totalScore = 0;
 $('#totalScore').text(totalScore);
 
@@ -35,7 +36,15 @@ function lose() {
     reset();
 }  
 
-
+function reset(){
+    randomNbr = Math.floor(Math.random() * ((120 - 19) + 1) + 19);
+    btn1 = Math.floor(Math.random() * 12) + 1;
+    btn2 = Math.floor(Math.random() * 12) + 1;
+    btn3 = Math.floor(Math.random() * 12) + 1;
+    btn4 = Math.floor(Math.random() * 12) + 1;
+    totalScore = 0;
+    $('#randomnumber').html(randomNbr);
+}
 
 // // Your game will hide this amount until the player clicks a crystal.
 // // When they do click one, update the player's score counter.
