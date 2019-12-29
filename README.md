@@ -7,4 +7,11 @@ You will be given a random number at the start of the game. Use the crystals to 
 
 Match your points to the random number to win. If you go over, you lose!
 
-Created with HTML, CSS, Javascript and Jquery
+## Technologies Used
+- HTML 
+- CSS
+- Javascript 
+- jQuery
+
+## Links
+(Crystals Collector Game)[https://lianadanae.github.io/Unit-4-game/]
